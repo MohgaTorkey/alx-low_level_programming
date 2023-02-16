@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main describtion - write line using printf
- *
- * return: 0
+ * main -print a line using printf
+ * return value is: 0
  */
 
 int main(void)
