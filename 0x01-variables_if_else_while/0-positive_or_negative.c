@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-/* main - determine if a number is postive or negative or zero.
+/*
+ *main: determine if a number is postive or negative or zero.
  *
  *Return: always 0 (Success)
  */
+
 int main(void)
 {
-	int number;
+	int x;
 
-	if (number > 0)
+	if (x > 0)
 	{
-		printf("%d is postive\n", number);
+		printf("%d is postive\n", x);
 	}
-	else if (number ==0)
+	else if (x == 0)
 	{
-		printf("%d is zero\n", number);
+		printf("%d is zero\n", x);
 	}
 	else
 	{
-		printf("%d is negative\n", number);
+		printf("%d is negative\n", x);
 	}
 	return (0);
 }
