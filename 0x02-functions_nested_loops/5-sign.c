@@ -3,10 +3,9 @@
 /**
  * print_sign - function that prints the sign number
  *
- * Return: 1 and prints + if n is greater than zero
- * Return: 0 and prints 0 if n is zero
- * Return: -1 and prints - if n is less than zero
+ * Return: 1, 0 and -1
  *
+ * @n: function parameter
  */
 
 int print_sign(int n)
