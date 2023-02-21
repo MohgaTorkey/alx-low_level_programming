@@ -13,7 +13,7 @@ void times_table(void)
 	while (count <= 10)
 	{
 		int product = number * count;
-		_putchar(number '*' count '=' product);
+		_putchar((number) '*' (count) '=' (produc)t);
 		count = count + 1;
 	}
 }
