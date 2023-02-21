@@ -12,8 +12,8 @@ void times_table(void)
 	
 	while (count <= 10)
 	{
-		int product = number * count;
-		_putchar((number) '*' (count) '=' (product));
+		int product = (number * count);
+		_putchar(number '*' count '=' product);
 		count = count + 1;
 	}
 }
