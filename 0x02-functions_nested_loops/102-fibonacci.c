@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i = 0;
-	long j = 1, K =2;
+	long j = 1, K = 2;
 
 	while (i < 50)
 	{
@@ -18,7 +18,7 @@ int main(void)
 		}
 		else if (i == 1)
 		{
-			printf("%d", k);
+			printf(", %d", k);
 		}
 		else
 		{
