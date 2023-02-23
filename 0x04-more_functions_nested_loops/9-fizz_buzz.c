@@ -6,7 +6,7 @@
  * for multiple of three print fizz
  * and for multiple of five print buzz
  *
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
@@ -30,7 +30,7 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		else 
+		else
 		{
 			printf(" %d", i);
 		}
