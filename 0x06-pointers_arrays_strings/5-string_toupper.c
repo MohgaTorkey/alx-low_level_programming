@@ -3,7 +3,8 @@
 /**
  * string_toupper - function that changes all lowercase
  * letters of a string to uppercase.
- *
+ * @str: reversed string
+ * Return: str pointer
  *
  */
 
