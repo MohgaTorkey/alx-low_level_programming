@@ -9,7 +9,10 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, n, value, check;
+	unsigned int i;
+	unsigned int n;
+	unsigned int value;
+	unsigned int check;
 
 	value = 0;
 
@@ -22,8 +25,13 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[n] == s[i])
 			{
 				value++;
-				check = 1;
+				break;
 			}
 		}
+		if (s[i] != accept[n])
+		{
+			return (value);
+		}
 	}
+	return (value);
 }
