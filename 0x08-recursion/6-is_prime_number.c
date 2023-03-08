@@ -3,7 +3,7 @@
 int cal_prime(int n, int i);
 
 /**
- * _prime_number - function that returns 1 if the input integer is
+ * is_prime_number - function that returns 1 if the input integer is
  * a prime number, otherwise return 0
  * @n: input
  * Return: 1 or 0
