@@ -4,7 +4,7 @@
 /**
  * main -print argument number
  * @argc: argument number
- * *argv: argumnt array
+ * @argv: argumnt array
  *
  * Return: 0
  */
