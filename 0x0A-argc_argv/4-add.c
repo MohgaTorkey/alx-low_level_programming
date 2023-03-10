@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-#include <type.h>
+#include <ctype.h>
 #include <string.h>
 
 /**
