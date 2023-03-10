@@ -8,9 +8,9 @@
  * Return: 0
  */
 
-int main(int agrc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int counr = 0;
+	int count = 0;
 
 	if (argc > 0)
 	{
