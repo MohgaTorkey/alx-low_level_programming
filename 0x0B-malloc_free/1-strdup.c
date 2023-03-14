@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup() - dublicate memory space
+ * _strdup - dublicate memory space
  * @str: char
  * Return: 0
  */
