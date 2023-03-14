@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * str_cincat - concatenates two strings
+ * str_concat - concatenates two strings
  * @s1: the first string
  * @s2: th esecond string
  * Return: the two strings concatenated
