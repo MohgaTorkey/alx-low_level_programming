@@ -7,7 +7,7 @@
  * @a: inputer first parameter
  * @b: input second parm
  *
- * Return : nothing
+ * Return: addition
  */
 int op_add(int a, int b)
 {
