@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * sum_listint - calculates sum of data
