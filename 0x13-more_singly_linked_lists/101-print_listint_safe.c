@@ -50,14 +50,14 @@ size_t looped_listint_len(const listint_t *head)
 }
 
 /**
- * print_listint_safe - print a listint 
+ * print_listint_safe - print a listint
  * @head: point to list head
  * Return: number of nodes
  */
 
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t node, index = 0;
+	size_t nodes, index = 0;
 
 	nodes = looped_listint_len(head);
 
