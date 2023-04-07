@@ -1,4 +1,4 @@
-#inclide "main.h"
+#include "main.h"
 
 /**
  * binary_to_unit - converts a binary to unsigned int
