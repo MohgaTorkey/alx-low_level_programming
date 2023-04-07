@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_ninary - print decimal number
+ * print_binary - print decimal number
  * @n: number to print
  */
 
