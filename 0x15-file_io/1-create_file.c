@@ -2,7 +2,7 @@
 
 /**
  * create_file - create a file
- * @filemname: points to file name
+ * @filename: points to file name
  * @text_content: points to string to be writen
  * Return: if fail -1 otherwise 1
  */
