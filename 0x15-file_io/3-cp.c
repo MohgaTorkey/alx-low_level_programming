@@ -44,7 +44,7 @@ void copy_file(const char *src, const char *dest)
 
 	tfd = open(dest, O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	while ((readed = read(ofd, buff, 1024))>0)
+	while ((readed = read(ofd, buff, 1024)) > 0)
 	{
 		if (write(tfd, buff, readed) != readed || tfd == -1)
 		{
