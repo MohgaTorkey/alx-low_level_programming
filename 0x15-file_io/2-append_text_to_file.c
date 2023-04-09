@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * append_test_to_file - append text
- * @filenam: file name
+ * append_text_to_file - append text
+ * @filename: file name
  * @text_content: string to be added
  * Return: 1 on success and -1 on fail
  */
