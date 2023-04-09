@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main -the entry
@@ -45,7 +46,7 @@ void copy_file(const char *src, const char *dest)
 
 	while ((readed = read(ofd, buff, 1024))>0)
 	{
-		if (write(tfd, buff, readed) != readed || tfd == -!)
+		if (write(tfd, buff, readed) != readed || tfd == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", dest);
 			exit(99);
